@@ -1,0 +1,114 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 11, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+}
+header {
+  width: screen;
+  height: 15vh;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-div {
+  width: 85vw;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+.logo-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 8vw;
+  height: inherit;
+  /* border: 1px solid black; */
+}
+.bi-box-fill{
+    height: 50px;
+    width: 50px;
+}
+.logonav-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60vw;
+  height: inherit;
+  /* border: 1px solid black; */
+}
+.signin-div {
+  width: 15vw;
+  height: inherit;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50vw;
+  color: white;
+  height: inherit;
+  /* border: 1px solid black; */
+}
+a {
+  text-decoration: none;
+}
+i {
+  font-size: 25px;
+}
+.btn-1 {
+  width: 100px;
+  height: 30px;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 20px;
+}
+.btn-2 {
+  width: 100px;
+  height: 30px;
+  color: black;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+}
+main {
+  width: screen;
+  height: 85vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-div {
+  display: flex;
+  width: 85vw;
+  height: inherit;
+  border: 1px solid black;
+}
+.lorem-div {
+  width: 42.5vw;
+  height: inherit;
+  border: 1px solid black;
+}
+.iphone-div{
+    width: 42.5vw;
+  height: inherit;
+  border: 1px solid black;
+}
